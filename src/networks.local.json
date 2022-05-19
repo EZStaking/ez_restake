@@ -1,0 +1,63 @@
+{
+  "desmos": {
+    "prettyName": "Desmos",
+    "gasPrice": "0.001udsm",
+    "restUrl": [
+      "https://lcd.desmos.ezstaking.io"
+    ],
+    "rpcUrl": [
+      "https://rpc.desmos.ezstaking.io"
+    ]
+  },
+  "stargaze": {
+    "prettyName": "Stargaze",
+    "gasPrice": "0stars",
+    "gasPriceStep": {
+      "low": 0,
+      "average": 0,
+      "high": 0
+    },
+    "restUrl": [
+      "https://api.stargaze.ezstaking.io"
+    ],
+    "rpcUrl": [
+      "https://rpc.stargaze.ezstaking.io"
+    ]
+  },
+  "cheqd": {
+    "prettyName": "Cheqd",
+    "gasPrice": "25ncheq",
+    "restUrl": [
+      "https://lcd.cheqd.ezstaking.io"
+    ],
+    "rpcUrl": [
+      "https://rpc.cheqd.ezstaking.io"
+    ]
+  },
+  "secretnetwork": {
+    "prettyName": "Secret Network",
+    "gasPrice": "0.025uscrt",
+    "restUrl": [
+      "http://15.235.51.150:1317"
+    ],
+    "rpcUrl": [
+      "http://15.235.51.150:26647"
+    ]
+  },
+  "assetmantle": {
+    "name": "AssetMantle",
+    "gasPrice": "0umntl",
+    "gasPriceStep": {
+      "low": 0,
+      "average": 0,
+      "high": 0
+    },
+    "ownerAddress": "mantlevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw9ldxx2",
+    "restUrl": [
+      "https://lcd.asset-mantle.ezstaking.io"
+    ],
+    "rpcUrl": [
+      "https://rpc.asset-mantle.ezstaking.io"
+    ]
+  }
+}
