@@ -1,3 +1,5 @@
+.idea
+
 src/networks.local.json
 scripts/*
 !scripts/autostake.mjs
