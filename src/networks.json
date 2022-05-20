@@ -31,7 +31,7 @@
   },
   {
     "name": "gravitybridge",
-    "gasPrice": "0.025ugraviton"
+    "gasPrice": "0ugraviton"
   },
   {
     "name": "regen",
@@ -171,11 +171,11 @@
   },
   {
     "name": "assetmantle",
-    "gasPrice": "0.025umntl",
+    "gasPrice": "0umntl",
     "gasPriceStep": {
       "low": 0,
-      "average": 0.025,
-      "high": 0.04
+      "average": 0,
+      "high": 0
     },
     "ownerAddress": "mantlevaloper1fqs7gakxdmujtk0qufdzth5pfyspus3yx394zd"
   },
