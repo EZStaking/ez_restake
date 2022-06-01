@@ -184,6 +184,7 @@
     "rpcUrl": [
       "https://rpc.evmos.ezstaking.io"
     ],
-    "ownerAddress": "evmosvaloper1n4kuugnh2z5dsug7egamma7chnjcdfu4jwhq76"
+    "ownerAddress": "evmosvaloper1n4kuugnh2z5dsug7egamma7chnjcdfu4jwhq76",
+    "slip44": 118
   }
 }
