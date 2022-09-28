@@ -17,10 +17,10 @@
     "prettyName": "Cosmos Hub",
     "gasPrice": "0.0025uatom",
     "restUrl": [
-      "https://lcd.cosmos.ezstaking.io"
+      "https://lcd-cosmos.ezstaking.io"
     ],
     "rpcUrl": [
-      "https://rpc.cosmos.ezstaking.io"
+      "https://rpc-cosmos.ezstaking.io"
     ],
     "ownerAddress": "cosmosvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw7sxzwx",
     "healthCheck": {
@@ -38,10 +38,10 @@
     "prettyName": "Gravity-Bridge",
     "gasPrice": "0ugraviton",
     "restUrl": [
-      "https://lcd.gravity-bridge.ezstaking.io"
+      "https://lcd-gravity-bridge.ezstaking.io"
     ],
     "rpcUrl": [
-      "https://rpc.gravity-bridge.ezstaking.io"
+      "https://rpc-gravity-bridge.ezstaking.io"
     ],
     "ownerAddress": "gravityvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawwle3df",
     "healthCheck": {
@@ -52,10 +52,10 @@
     "prettyName": "BitCanna",
     "gasPrice": "0.001ubcna",
     "restUrl": [
-      "https://lcd.bitcanna.ezstaking.io"
+      "https://lcd-bitcanna.ezstaking.io"
     ],
     "rpcUrl": [
-      "https://rpc.bitcanna.ezstaking.io"
+      "https://rpc-bitcanna.ezstaking.io"
     ],
     "ownerAddress": "bcnavaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawcfnksn",
     "healthCheck": {
@@ -66,10 +66,10 @@
     "prettyName": "e-Money",
     "gasPrice": "0.08ungm",
     "restUrl": [
-      "https://lcd.emoney.ezstaking.io"
+      "https://lcd-emoney.ezstaking.io"
     ],
     "rpcUrl": [
-      "https://rpc.emoney.ezstaking.io"
+      "https://rpc-emoney.ezstaking.io"
     ],
     "ownerAddress": "emoneyvaloper1pwpy0ul4v6ujpucetj3rh2f8dt4x7vuwych75m",
     "healthCheck": {
@@ -80,10 +80,10 @@
     "prettyName": "Desmos",
     "gasPrice": "0.001udsm",
     "restUrl": [
-      "https://lcd.desmos.ezstaking.io"
+      "https://lcd-desmos.ezstaking.io"
     ],
     "rpcUrl": [
-      "https://rpc.desmos.ezstaking.io"
+      "https://rpc-desmos.ezstaking.io"
     ],
     "ownerAddress": "desmosvaloper18hygynz3z90eznjkxe0cgk73vn4cngp59gy4x2",
     "healthCheck": {
@@ -92,7 +92,9 @@
   },
   "sifchain": {
     "prettyName": "Sifchain",
+    "gas": "auto",
     "gasPrice": "1500000000000rowan",
+    "gasAdjustment": "1.5",
     "ownerAddress": "sifvaloper1mn222rvfskfefxg7dpu08ex0hf2mq75uz93hy7",
     "healthCheck": {
       "uuid": "9d44ff23-f715-4040-a50b-85b4442a4cce"
@@ -114,10 +116,10 @@
       "high": 0
     },
     "restUrl": [
-      "https://api.stargaze.ezstaking.io"
+      "https://api-stargaze.ezstaking.io"
     ],
     "rpcUrl": [
-      "https://rpc.stargaze.ezstaking.io"
+      "https://rpc-stargaze.ezstaking.io"
     ],
     "ownerAddress": "starsvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawyx37ju",
     "healthCheck": {
@@ -135,10 +137,10 @@
     "prettyName": "Cheqd",
     "gasPrice": "25ncheq",
     "restUrl": [
-      "https://lcd.cheqd.ezstaking.io"
+      "https://lcd-cheqd.ezstaking.io"
     ],
     "rpcUrl": [
-      "https://rpc.cheqd.ezstaking.io"
+      "https://rpc-cheqd.ezstaking.io"
     ],
     "ownerAddress": "cheqdvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw2vq30x",
     "autostake": {
@@ -150,6 +152,12 @@
   },
   "bitsong": {
     "prettyName": "BitSong",
+    "restUrl": [
+      "https://lcd-bitsong.ezstaking.io"
+    ],
+    "rpcUrl": [
+      "https://rpc-bitsong.ezstaking.io"
+    ],
     "ownerAddress": "bitsongvaloper18xfqngs09n7a86lesrh4q5atjx37a3qc56hqhw",
     "healthCheck": {
       "uuid": "15ee4f27-a163-4c15-85b4-36c96fc96627"
@@ -159,10 +167,10 @@
     "prettyName": "Impact Hub",
     "gasPrice": "0.025uixo",
     "restUrl": [
-      "https://lcd.ixo.ezstaking.io"
+      "https://lcd-ixo.ezstaking.io"
     ],
     "rpcUrl": [
-      "https://rpc.ixo.ezstaking.io"
+      "https://rpc-ixo.ezstaking.io"
     ],
     "ownerAddress": "ixovaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawwsu57r",
     "healthCheck": {
@@ -173,10 +181,10 @@
     "prettyName": "KiChain",
     "gasPrice": "0.025uxki",
     "restUrl": [
-      "https://lcd.kichain.ezstaking.io"
+      "https://lcd-kichain.ezstaking.io"
     ],
     "rpcUrl": [
-      "https://rpc.kichain.ezstaking.io"
+      "https://rpc-kichain.ezstaking.io"
     ],
     "ownerAddress": "kivaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw7wd99l",
     "healthCheck": {
@@ -222,10 +230,10 @@
       "high": 0
     },
     "restUrl": [
-      "https://lcd.asset-mantle.ezstaking.io"
+      "https://lcd-assetmantle.ezstaking.io"
     ],
     "rpcUrl": [
-      "https://rpc.asset-mantle.ezstaking.io"
+      "https://rpc-assetmantle.ezstaking.io"
     ],
     "ownerAddress": "mantlevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw9ldxx2",
     "healthCheck": {
@@ -234,16 +242,27 @@
   },
   "evmos": {
     "prettyName": "Evmos",
-    "gasPrice": "2500000000000aevmos",
+    "gasPrice": "20000000000aevmos",
     "restUrl": [
-      "https://lcd.evmos.ezstaking.io"
+      "https://rest.bd.evmos.org:1317"
     ],
     "rpcUrl": [
-      "https://rpc.evmos.ezstaking.io"
+      "https://tendermint.bd.evmos.org:26657"
     ],
     "ownerAddress": "evmosvaloper1n4kuugnh2z5dsug7egamma7chnjcdfu4jwhq76",
     "healthCheck": {
       "uuid": "fd4a0d47-072e-4b7a-bb92-5a5f24c2a7b1"
     }
+  },
+  "idep": {
+    "prettyName": "IDEP",
+    "gasPrice": "0idep",
+    "restUrl": [
+      "https://lcd-idep.ezstaking.io"
+    ],
+    "rpcUrl": [
+      "https://rpc-idep.ezstaking.io"
+    ],
+    "ownerAddress": "idepvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawuewume"
   }
 }

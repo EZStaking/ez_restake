@@ -269,5 +269,33 @@
   },
   {
     "name": "acrechain"
+  },
+  {
+    "name": "idep",
+    "enabled": true,
+    "chainName": "idep",
+    "status": "live",
+    "networkType": "mainnet",
+    "prettyName": "IDEP",
+    "chainId": "Antora",
+    "bech32Prefix": "idep",
+    "keyAlgos": [
+      "secp256k1"
+    ],
+    "slip44": 118,
+    "apis": {
+      "rpc": [
+        {
+          "address": "https://rpc-idep.ezstaking.io",
+          "provider": "EZStaking"
+        }
+      ],
+      "rest": [
+        {
+          "address": "https://lcd-idep.ezstaking.io",
+          "provider": "EZStaking"
+        }
+      ]
+    }
   }
 ]
