@@ -3,10 +3,10 @@
     "prettyName": "Juno Network",
     "gasPrice": "0.0025ujuno",
     "restUrl": [
-      "https://lcd.junomint.com"
+      "https://lcd-juno.ezstaking.dev"
     ],
     "rpcUrl": [
-      "https://rpc.junomint.com"
+      "https://rpc-juno.ezstaking.dev"
     ],
     "ownerAddress": "junovaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawjt8r7s",
     "healthCheck": {
