@@ -31,7 +31,7 @@
   },
   {
     "name": "gravitybridge",
-    "gasPrice": "0ugraviton"
+    "gasPrice": "0.025ugraviton"
   },
   {
     "name": "regen",
@@ -171,11 +171,11 @@
   },
   {
     "name": "assetmantle",
-    "gasPrice": "0umntl",
+    "gasPrice": "0.025umntl",
     "gasPriceStep": {
       "low": 0,
-      "average": 0,
-      "high": 0
+      "average": 0.025,
+      "high": 0.04
     },
     "ownerAddress": "mantlevaloper1fqs7gakxdmujtk0qufdzth5pfyspus3yx394zd"
   },
@@ -269,33 +269,5 @@
   },
   {
     "name": "acrechain"
-  },
-  {
-    "name": "idep",
-    "enabled": true,
-    "chainName": "idep",
-    "status": "live",
-    "networkType": "mainnet",
-    "prettyName": "IDEP",
-    "chainId": "Antora",
-    "bech32Prefix": "idep",
-    "keyAlgos": [
-      "secp256k1"
-    ],
-    "slip44": 118,
-    "apis": {
-      "rpc": [
-        {
-          "address": "https://rpc-idep.ezstaking.io",
-          "provider": "EZStaking"
-        }
-      ],
-      "rest": [
-        {
-          "address": "https://lcd-idep.ezstaking.io",
-          "provider": "EZStaking"
-        }
-      ]
-    }
   }
 ]

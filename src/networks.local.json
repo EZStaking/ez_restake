@@ -264,5 +264,10 @@
       "https://rpc-idep.ezstaking.dev"
     ],
     "ownerAddress": "idepvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawuewume"
+  },
+  "teritori": {
+    "prettyName": "Teritory",
+    "gasPrice": "0utori",
+    "ownerAddress": "torivaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawuzxptg"
   }
 }
