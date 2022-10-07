@@ -1,273 +1,256 @@
-{
-  "juno": {
-    "prettyName": "Juno Network",
+[
+  {
+    "name": "osmosis",
+    "gasPrice": "0.0025uosmo",
+    "ownerAddress": "osmovaloper1u5v0m74mql5nzfx2yh43s2tke4mvzghr6m2n5t",
+    "default": true,
+    "maxPerDay": 1
+  },
+  {
+    "name": "juno",
     "gasPrice": "0.0025ujuno",
-    "restUrl": [
-      "https://lcd-juno.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-juno.ezstaking.dev"
-    ],
-    "ownerAddress": "junovaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawjt8r7s",
-    "healthCheck": {
-      "uuid": "bd479dfa-2e1e-4236-a313-a08bda088df2"
-    }
+    "ownerAddress": "junovaloper19ur8r2l25qhsy9xvej5zgpuc5cpn6syydmwtrt"
   },
-  "cosmoshub": {
-    "prettyName": "Cosmos Hub",
-    "gasPrice": "0.0025uatom",
-    "restUrl": [
-      "https://lcd-cosmos.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-cosmos.ezstaking.dev"
-    ],
-    "ownerAddress": "cosmosvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw7sxzwx",
-    "healthCheck": {
-      "uuid": "23eb3159-4082-483a-99fe-92a7ac137cc9"
-    }
+  {
+    "name": "cosmoshub",
+    "gasPrice": "0.0025uatom"
   },
-  "akash": {
-    "prettyName": "Akash",
-    "ownerAddress": "akashvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawua3kt9",
-    "healthCheck": {
-      "uuid": "4d9f51d2-3b17-452a-9119-a43e5aeb995d"
-    }
+  {
+    "name": "akash",
+    "ownerAddress": "akashvaloper1xgnd8aach3vawsl38snpydkng2nv8a4kqgs8hf"
   },
-  "gravitybridge": {
-    "prettyName": "Gravity-Bridge",
-    "gasPrice": "0ugraviton",
-    "restUrl": [
-      "https://lcd-gravity-bridge.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-gravity-bridge.ezstaking.dev"
-    ],
-    "ownerAddress": "gravityvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawwle3df",
-    "healthCheck": {
-      "uuid": "15101fe2-d646-45c5-9a9f-b06a5f5f7b61"
-    }
+  {
+    "name": "chihuahua",
+    "ownerAddress": "chihuahuavaloper19vwcee000fhazmpt4ultvnnkhfh23ppwxll8zz",
+    "gasPrice": "1uhuahua",
+    "gasPricePrefer": "1uhuahua"
   },
-  "bitcanna": {
-    "prettyName": "BitCanna",
-    "gasPrice": "0.001ubcna",
-    "restUrl": [
-      "https://lcd-bitcanna.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-bitcanna.ezstaking.dev"
-    ],
-    "ownerAddress": "bcnavaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawcfnksn",
-    "healthCheck": {
-      "uuid": "aa6008f4-c321-420c-848d-3d49526d796c"
-    }
+  {
+    "name": "gravitybridge",
+    "gasPrice": "0ugraviton"
   },
-  "emoney": {
-    "prettyName": "e-Money",
-    "gasPrice": "0.08ungm",
-    "restUrl": [
-      "https://lcd-emoney.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-emoney.ezstaking.dev"
-    ],
-    "ownerAddress": "emoneyvaloper1pwpy0ul4v6ujpucetj3rh2f8dt4x7vuwych75m",
-    "healthCheck": {
-      "uuid": "b5877e35-9c40-429e-a326-6d08f733007a"
-    }
-  },
-  "desmos": {
-    "prettyName": "Desmos",
-    "gasPrice": "0.001udsm",
-    "restUrl": [
-      "https://lcd-desmos.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-desmos.ezstaking.dev"
-    ],
-    "ownerAddress": "desmosvaloper18hygynz3z90eznjkxe0cgk73vn4cngp59gy4x2",
-    "healthCheck": {
-      "uuid": "89e1affa-3125-4c7c-abf9-8441f41c0a2a"
-    }
-  },
-  "sifchain": {
-    "prettyName": "Sifchain",
-    "gas": "auto",
-    "gasPrice": "1500000000000rowan",
-    "gasAdjustment": "1.5",
-    "ownerAddress": "sifvaloper1mn222rvfskfefxg7dpu08ex0hf2mq75uz93hy7",
-    "healthCheck": {
-      "uuid": "9d44ff23-f715-4040-a50b-85b4442a4cce"
-    }
-  },
-  "lumnetwork": {
-    "prettyName": "Lum Network",
-    "ownerAddress": "lumvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw3exdv9",
-    "healthCheck": {
-      "uuid": "32e3904f-284a-4742-a9ac-ce622788ab8c"
-    }
-  },
-  "stargaze": {
-    "prettyName": "Stargaze",
-    "gasPrice": "0stars",
-    "gasPriceStep": {
-      "low": 0,
-      "average": 0,
-      "high": 0
-    },
-    "restUrl": [
-      "https://api-stargaze.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-stargaze.ezstaking.dev"
-    ],
-    "ownerAddress": "starsvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawyx37ju",
-    "healthCheck": {
-      "uuid": "a7c8133b-0914-48e7-b9cb-01a2c88b4811"
-    }
-  },
-  "comdex": {
-    "prettyName": "Comdex",
-    "ownerAddress": "comdexvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw0u289r",
-    "healthCheck": {
-      "uuid": "b30ed331-a5ff-40d1-907b-b909b9310c5c"
-    }
-  },
-  "cheqd": {
-    "prettyName": "Cheqd",
-    "gasPrice": "25ncheq",
-    "restUrl": [
-      "https://lcd-cheqd.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-cheqd.ezstaking.dev"
-    ],
-    "ownerAddress": "cheqdvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw2vq30x",
+  {
+    "name": "regen",
+    "gasPrice": "0.03uregen",
+    "ownerAddress": "regenvaloper1c4y3j05qx652rnxm5mg4yesqdkmhz2f6dl7hhk",
     "autostake": {
-      "batchTxs": 10
-    },
-    "healthCheck": {
-      "uuid": "88823366-feeb-4f83-9852-237ce7760e70"
+      "batchTxs": 5
     }
   },
-  "bitsong": {
-    "prettyName": "BitSong",
-    "restUrl": [
-      "https://lcd-bitsong.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-bitsong.ezstaking.dev"
-    ],
-    "ownerAddress": "bitsongvaloper18xfqngs09n7a86lesrh4q5atjx37a3qc56hqhw",
-    "healthCheck": {
-      "uuid": "15ee4f27-a163-4c15-85b4-36c96fc96627"
-    }
+  {
+    "name": "terra",
+    "gasPrice": "5.665uluna"
   },
-  "impacthub": {
-    "prettyName": "Impact Hub",
+  {
+    "name": "terra2",
+    "gasPrice": "0.015uluna"
+  },
+  {
+    "name": "sentinel",
+    "gasPrice": "0.02udvpn"
+  },
+  {
+    "name": "dig",
+    "gasPrice": "0.01udig",
+    "ownerAddress": "digvaloper136avwnuvvy94dqmtnaue2nfvjes8xr37h9rzay"
+  },
+  {
+    "name": "bitcanna",
+    "gasPrice": "0.001ubcna"
+  },
+  {
+    "name": "emoney",
+    "gasPrice": "0.08ungm"
+  },
+  {
+    "name": "kava",
+    "gasPrice": "0.00008ukava"
+  },
+  {
+    "name": "desmos",
+    "gasPrice": "0.001udsm"
+  },
+  {
+    "name": "cryptoorgchain",
+    "gasPrice": "0.025basecro",
+    "ownerAddress": "crocncl10mfs428fyntu296dgh5fmhvdzrr2stlaekcrp9"
+  },
+  {
+    "name": "evmos",
+    "txTimeout": 120000,
+    "ownerAddress": "evmosvaloper1umk407eed7af6anvut6llg2zevnf0dn0feqqny",
+    "maxPerDay": 1
+  },
+  {
+    "name": "sifchain",
+    "gasPrice": "1500000000000rowan",
+    "ownerAddress": "sifvaloper19t5nk5ceq5ga75epwdqhnupwg0v9339p096ydz"
+  },
+  {
+    "name": "lumnetwork"
+  },
+  {
+    "name": "stargaze"
+  },
+  {
+    "name": "comdex",
+    "ownerAddress": "comdexvaloper17f70yjkvmvld379904jaddx9h0f74n32pjtmp6"
+  },
+  {
+    "name": "cheqd",
+    "gasPrice": "25ncheq"
+  },
+  {
+    "name": "umee"
+  },
+  {
+    "name": "bitsong"
+  },
+  {
+    "name": "persistence"
+  },
+  {
+    "name": "agoric"
+  },
+  {
+    "name": "impacthub",
     "gasPrice": "0.025uixo",
-    "restUrl": [
-      "https://lcd-ixo.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-ixo.ezstaking.dev"
-    ],
-    "ownerAddress": "ixovaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawwsu57r",
-    "healthCheck": {
-      "uuid": "1a6568b9-8317-4417-9c51-de8e289185b7"
-    }
+    "gasPricePrefer": "0.1uixo"
   },
-  "kichain": {
-    "prettyName": "KiChain",
-    "gasPrice": "0.025uxki",
-    "restUrl": [
-      "https://lcd-kichain.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-kichain.ezstaking.dev"
-    ],
-    "ownerAddress": "kivaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw7wd99l",
-    "healthCheck": {
-      "uuid": "852f8640-0f87-4fce-ab90-e20fab5461c0"
-    }
+  {
+    "name": "kichain",
+    "gasPrice": "0.025uxki"
   },
-  "secretnetwork": {
-    "prettyName": "Secret Network",
+  {
+    "name": "sommelier"
+  },
+  {
+    "name": "konstellation",
+    "image": "https://raw.githubusercontent.com/Konstellation/DARC_token/main/darctoken.svg"
+  },
+  {
+    "name": "fetchhub",
+    "gasPrice": "5000afet"
+  },
+  {
+    "name": "cerberus",
+    "gasPrice": "0.025ucrbrus",
+    "autostake": {
+      "batchTxs": 100
+    },
+    "ownerAddress": "cerberusvaloper1tat2cy3f9djtq9z7ly262sqngcarvaktr0w78f"
+  },
+  {
+    "name": "secretnetwork",
     "gasPrice": "0.025uscrt",
-    "restUrl": [
-      "http://15.235.51.150:1317"
-    ],
-    "rpcUrl": [
-      "http://15.235.51.150:26647"
-    ],
-    "ownerAddress": "secretvaloper1qup4hqzvjrqlzqgzndheny29wh25q3w0ga80v6",
-    "healthCheck": {
-      "uuid": "87ce04e0-089a-45e2-9a54-b4d50c7e1c32"
-    }
+    "gasPricePrefer": "0.05uscrt",
+    "authzAminoSupport": true
   },
-  "bostrom": {
-    "prettyName": "Bostrom",
-    "gasPrice": "0boot",
-    "ownerAddress": "bostromvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawqdpmv3",
-    "healthCheck": {
-      "uuid": "52a6cb9c-de0a-4a81-87dd-d54066defaa4"
-    }
+  {
+    "name": "bostrom",
+    "gasPrice": "0boot"
   },
-  "rizon": {
-    "prettyName": "Rizon",
-    "gasPrice": "0.0001uatolo",
-    "ownerAddress": "rizonvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawtav8va",
-    "healthCheck": {
-      "uuid": "a7c13487-51dc-4b6e-a7b2-cb172d2905f7"
-    }
+  {
+    "name": "starname",
+    "gasPrice": "10uvoi"
   },
-  "assetmantle": {
-    "prettyName": "AssetMantle",
+  {
+    "name": "rizon",
+    "gasPrice": "0.0001uatolo"
+  },
+  {
+    "name": "decentr",
+    "gasPrice": "0.025udec"
+  },
+  {
+    "name": "assetmantle",
     "gasPrice": "0umntl",
     "gasPriceStep": {
       "low": 0,
       "average": 0,
       "high": 0
     },
-    "restUrl": [
-      "https://lcd-assetmantle.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-assetmantle.ezstaking.dev"
-    ],
-    "ownerAddress": "mantlevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw9ldxx2",
-    "healthCheck": {
-      "uuid": "50303d6c-a5ef-4991-889f-e8bae68057c4"
+    "ownerAddress": "mantlevaloper1fqs7gakxdmujtk0qufdzth5pfyspus3yx394zd"
+  },
+  {
+    "name": "crescent",
+    "gasPrice": "0.025ucre",
+    "gasPriceStep": {
+      "low": 0,
+      "average": 0.025,
+      "high": 0.04
     }
   },
-  "evmos": {
-    "prettyName": "Evmos",
-    "gasPrice": "20000000000aevmos",
-    "restUrl": [
-      "https://rest.bd.evmos.org:1317"
-    ],
-    "rpcUrl": [
-      "https://tendermint.bd.evmos.org:26657"
-    ],
-    "ownerAddress": "evmosvaloper1n4kuugnh2z5dsug7egamma7chnjcdfu4jwhq76",
-    "healthCheck": {
-      "uuid": "fd4a0d47-072e-4b7a-bb92-5a5f24c2a7b1"
+  {
+    "name": "meme",
+    "gasPrice": "0.025umeme"
+  },
+  {
+    "name": "cronos",
+    "enabled": false
+  },
+  {
+    "name": "harpoon",
+    "ownerAddress": "kujiravaloper1vue5lawr3s0au9zj0aqeft5aknx6cjq6w5ghca",
+    "testnet": true
+  },
+  {
+    "name": "kujira",
+    "ownerAddress": "kujiravaloper1vue5lawr3s0au9zj0aqeft5aknx6cjq6w5ghca"
+  },
+  {
+    "name": "genesisl1",
+    "txTimeout": 120000
+  },
+  {
+    "name": "tgrade",
+    "enabled": false
+  },
+  {
+    "name": "aioz",
+    "enabled": false
+  },
+  {
+    "name": "echelon",
+    "keplrFeatures": [
+      "ibc-transfer",
+      "ibc-go",
+      "eth-address-gen",
+      "eth-key-sign"
+    ]
+  },
+  {
+    "name": "kichaintestnet",
+    "testnet": true
+  },
+  {
+    "name": "likecoin",
+    "gasPrice": "10nanolike"
+  },
+  {
+    "name": "passage",
+    "ownerAddress": "pasgvaloper196rujtjehu0dfc7y85lkcaps6tel76g3l9knjy"
+  },
+  {
+    "name": "stride",
+    "ownerAddress": "stridevaloper1x2kta40h5rnymtjn6ys7vk2d87xu7y6zfu9j3r",
+    "gasPriceStep": {
+      "low": 0,
+      "average": 0.025,
+      "high": 0.04
     }
   },
-  "idep": {
-    "prettyName": "IDEP",
-    "gasPrice": "0idep",
-    "restUrl": [
-      "https://lcd-idep.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-idep.ezstaking.dev"
-    ],
-    "ownerAddress": "idepvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawuewume"
+  {
+    "name": "pulsar",
+    "testnet": true
   },
-  "teritori": {
-    "prettyName": "Teritory",
-    "gasPrice": "0utori",
-    "ownerAddress": "torivaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawuzxptg"
+  {
+    "name": "teritori",
+    "ownerAddress": "torivaloper1d5u07lhelk6lal44a0myvufurvsqk5d499h9hz",
+    "gasPriceStep": {
+      "low": 0,
+      "average": 0.025,
+      "high": 0.04
+    }
   }
-}
+]
