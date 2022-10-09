@@ -265,6 +265,12 @@
   "teritori": {
     "prettyName": "Teritory",
     "gasPrice": "0utori",
+    "restUrl": [
+      "https://rest.mainnet.teritori.com"
+    ],
+    "rpcUrl": [
+      "https://rpc.mainnet.teritori.com"
+    ],
     "ownerAddress": "torivaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawuzxptg",
     "healthCheck": {
       "uuid": "b5877e35-9c40-429e-a326-6d08f733007a"
