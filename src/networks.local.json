@@ -71,10 +71,7 @@
     "rpcUrl": [
       "https://rpc-emoney.ezstaking.dev"
     ],
-    "ownerAddress": "emoneyvaloper1pwpy0ul4v6ujpucetj3rh2f8dt4x7vuwych75m",
-    "healthCheck": {
-      "uuid": "b5877e35-9c40-429e-a326-6d08f733007a"
-    }
+    "ownerAddress": "emoneyvaloper1pwpy0ul4v6ujpucetj3rh2f8dt4x7vuwych75m"
   },
   "desmos": {
     "prettyName": "Desmos",
@@ -268,6 +265,9 @@
   "teritori": {
     "prettyName": "Teritory",
     "gasPrice": "0utori",
-    "ownerAddress": "torivaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawuzxptg"
+    "ownerAddress": "torivaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawuzxptg",
+    "healthCheck": {
+      "uuid": "b5877e35-9c40-429e-a326-6d08f733007a"
+    }
   }
 }
