@@ -238,8 +238,15 @@ function SigningClient(network, signer) {
 
   function convertToAmino(messages){
     return messages.map(message => {
-      if(message.typeUrl.startsWith('/cosmos.authz') && !network.ledgerAuthzSupport){
+      if(message.typeUrl.startsWith('/cosmos.authz') && !network.authzAminoSupport){
         throw new Error('This chain does not support amino conversion for Authz messages')
+      }
+      if(message.typeUrl === '/cosmos.authz.v1beta1.MsgExec' && network.path === 'osmosis'){
+        // Osmosis MsgExec gov is broken with Amino currently
+        // See https://github.com/osmosis-labs/cosmos-sdk/pull/342
+        if(message.value.msgs.some(msg => msg.typeUrl.startsWith('/cosmos.gov'))){
+          throw new Error('Osmosis does not support amino conversion for Authz Exec gov messages')
+        }
       }
       return aminoTypes.toAmino(message)
     })
@@ -272,17 +279,14 @@ function SigningClient(network, signer) {
     if (!accountFromSigner) {
       throw new Error("Failed to retrieve account from signer");
     }
-    const pubkey = accountFromSigner.pubkey;
+    const signerPubkey = accountFromSigner.pubkey;
     return AuthInfo.encode({
       signerInfos: [
         {
           publicKey: {
-            typeUrl:
-              coinType === 60
-                ? "/ethermint.crypto.v1.ethsecp256k1.PubKey"
-                : "/cosmos.crypto.secp256k1.PubKey",
+            typeUrl: pubkeyTypeUrl(account.pub_key),
             value: PubKey.encode({
-              key: pubkey,
+              key: signerPubkey,
             }).finish(),
           },
           sequence: Long.fromNumber(sequence, true),
@@ -291,6 +295,19 @@ function SigningClient(network, signer) {
       ],
       fee: Fee.fromPartial(fee),
     }).finish()
+  }
+
+  function pubkeyTypeUrl(pub_key){
+    if(pub_key && pub_key['@type']) return pub_key['@type']
+
+    if(network.path === 'injective'){
+      return '/injective.crypto.v1beta1.ethsecp256k1.PubKey'
+    }
+
+    if(coinType === 60){
+      return '/ethermint.crypto.v1.ethsecp256k1.PubKey'
+    }
+    return '/cosmos.crypto.secp256k1.PubKey'
   }
 
   return {

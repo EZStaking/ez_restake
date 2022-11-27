@@ -108,6 +108,7 @@ export default function Autostake(mnemonic, opts) {
 
   async function getNetworkRunner(data) {
     const network = new Network(data)
+    let config = { ...opts }
     try {
       await network.load()
     } catch {
@@ -132,7 +133,7 @@ export default function Autostake(mnemonic, opts) {
 
     if (!network.authzSupport) return timeStamp('No Authz support')
 
-    await network.connect()
+    await network.connect({ timeout: config.delegationsTimeout || 20000 })
 
     const { restUrl, usingDirectory } = network
 
@@ -142,7 +143,8 @@ export default function Autostake(mnemonic, opts) {
 
     if (usingDirectory) {
       timeStamp('You are using public nodes, they may not be reliable. Check the README to use your own')
-      timeStamp('Delaying briefly to reduce load...')
+      timeStamp('Delaying briefly and adjusting config to reduce load...')
+      config = {...config, batchPageSize: 50, batchQueries: 10, queryThrottle: 2500}
       await new Promise(r => setTimeout(r, (Math.random() * 31) * 1000));
     }
 
@@ -153,7 +155,7 @@ export default function Autostake(mnemonic, opts) {
       network,
       operator,
       signingClient,
-      opts
+      config
     )
   }
 
