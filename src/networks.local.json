@@ -77,10 +77,10 @@
     "prettyName": "Desmos",
     "gasPrice": "0.001udsm",
     "restUrl": [
-      "https://lcd-desmos.ezstaking.dev"
+      "https://api.mainnet.desmos.network"
     ],
     "rpcUrl": [
-      "https://rpc-desmos.ezstaking.dev"
+      "https://rpc.mainnet.desmos.network"
     ],
     "ownerAddress": "desmosvaloper18hygynz3z90eznjkxe0cgk73vn4cngp59gy4x2",
     "healthCheck": {
@@ -275,5 +275,16 @@
     "healthCheck": {
       "uuid": "b5877e35-9c40-429e-a326-6d08f733007a"
     }
+  },
+  "firmachain": {
+    "prettyName": "Firmachain",
+    "gasPrice": "0ufct",
+    "restUrl": [
+      "https://lcd.firmachain.dev:1317"
+    ],
+    "rpcUrl": [
+      "https://lcd.firmachain.dev:26657"
+    ],
+    "ownerAddress": "firmavaloper13ee8f0s90a3x0c7yfduxkv4hvrdwsuv74llup9"
   }
 }
