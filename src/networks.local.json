@@ -85,6 +85,9 @@
     "ownerAddress": "desmosvaloper18hygynz3z90eznjkxe0cgk73vn4cngp59gy4x2",
     "healthCheck": {
       "uuid": "89e1affa-3125-4c7c-abf9-8441f41c0a2a"
+    },
+    "autostake": {
+      "queryTimeout": 50000
     }
   },
   "sifchain": {
