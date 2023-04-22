@@ -292,7 +292,7 @@
   },
   "omniflixhub": {
     "prettyName": "OmniFlix Hub",
-    "gasPrice": "0uflix",
+    "gasPrice": "0.001uflix",
     "restUrl": [
       "https://rest.omniflix.network"
     ],
