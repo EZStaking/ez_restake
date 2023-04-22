@@ -300,5 +300,16 @@
       "https://rpc-omniflix.ezstaking.dev"
     ],
     "ownerAddress": "omniflixvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawtg305r"
+  },
+  "kyve": {
+    "prettyName": "KYVE",
+    "gasPrice": "0.02ukyve",
+    "restUrl": [
+      "https://lcd-kyve.ezstaking.dev:443"
+    ],
+    "rpcUrl": [
+      "https://rpc-kyve.ezstaking.dev:443"
+    ],
+    "ownerAddress": "kyvevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw76lp8n"
   }
 }
