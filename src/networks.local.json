@@ -294,7 +294,7 @@
     "prettyName": "OmniFlix Hub",
     "gasPrice": "0uflix",
     "restUrl": [
-      "https://lcd-omniflix.ezstaking.dev"
+      "https://rest.omniflix.network"
     ],
     "rpcUrl": [
       "https://rpc-omniflix.ezstaking.dev"
