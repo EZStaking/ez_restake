@@ -4,7 +4,10 @@
     "gasPrice": "0.0025uosmo",
     "ownerAddress": "osmovaloper1u5v0m74mql5nzfx2yh43s2tke4mvzghr6m2n5t",
     "default": true,
-    "maxPerDay": 1
+    "maxPerDay": 1,
+    "apiVersions": {
+      "gov": "v1beta1"
+    }
   },
   {
     "name": "juno",
@@ -68,7 +71,7 @@
   },
   {
     "name": "kava",
-    "gasPrice": "0.00008ukava"
+    "gasPrice": "0.001ukava"
   },
   {
     "name": "desmos",
@@ -269,5 +272,10 @@
   },
   {
     "name": "acrechain"
+  },
+  {
+    "name": "mars",
+    "ownerAddress": "marsvaloper1hvtaqw9mlwc0a4cdx6g3klk8acfc6z3yazzk8a",
+    "gasPrice": "0umars"
   }
 ]
