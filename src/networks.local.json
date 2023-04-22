@@ -289,5 +289,16 @@
       "https://lcd.firmachain.dev:26657"
     ],
     "ownerAddress": "firmavaloper13ee8f0s90a3x0c7yfduxkv4hvrdwsuv74llup9"
+  },
+  "omniflixhub": {
+    "prettyName": "OmniFlix Hub",
+    "gasPrice": "0uflix",
+    "restUrl": [
+      "https://lcd-omniflix.ezstaking.dev"
+    ],
+    "rpcUrl": [
+      "https://rpc-omniflix.ezstaking.dev"
+    ],
+    "ownerAddress": "omniflixvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawtg305r"
   }
 }
