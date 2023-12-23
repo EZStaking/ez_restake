@@ -1,7 +1,7 @@
 {
   "juno": {
     "prettyName": "Juno Network",
-    "gasPrice": "0.0025ujuno",
+    "gasPrice": "0.075ujuno",
     "restUrl": [
       "https://lcd-juno.ezstaking.dev"
     ],
@@ -15,7 +15,7 @@
   },
   "cosmoshub": {
     "prettyName": "Cosmos Hub",
-    "gasPrice": "0.0025uatom",
+    "gasPrice": "0.005uatom",
     "restUrl": [
       "https://lcd-cosmos.ezstaking.dev"
     ],
@@ -50,13 +50,13 @@
   },
   "bitcanna": {
     "prettyName": "BitCanna",
-    "gasPrice": "0.001ubcna",
     "restUrl": [
-      "https://lcd-bitcanna.ezstaking.dev"
+      "https://lcd.bitcanna.io"
     ],
     "rpcUrl": [
-      "https://rpc-bitcanna.ezstaking.dev"
+      "https://rpc.bitcanna.io"
     ],
+    "gasPrice": "0.001ubcna",
     "ownerAddress": "bcnavaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawcfnksn",
     "healthCheck": {
       "uuid": "aa6008f4-c321-420c-848d-3d49526d796c"
@@ -102,6 +102,12 @@
   },
   "lumnetwork": {
     "prettyName": "Lum Network",
+    "restUrl": [
+      "https://rest.node0.mainnet.lum.network"
+    ],
+    "rpcUrl": [
+      "https://rpc.node0.mainnet.lum.network"
+    ],
     "ownerAddress": "lumvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw3exdv9",
     "healthCheck": {
       "uuid": "32e3904f-284a-4742-a9ac-ce622788ab8c"
@@ -109,11 +115,11 @@
   },
   "stargaze": {
     "prettyName": "Stargaze",
-    "gasPrice": "0stars",
+    "gasPrice": "1ustars",
     "gasPriceStep": {
-      "low": 0,
-      "average": 0,
-      "high": 0
+      "low": 0.000001,
+      "average": 0.000011,
+      "high": 0.000012
     },
     "restUrl": [
       "https://api-stargaze.ezstaking.dev"
@@ -128,6 +134,12 @@
   },
   "comdex": {
     "prettyName": "Comdex",
+    "restUrl": [
+      "https://rest.comdex.one"
+    ],
+    "rpcUrl": [
+      "https://rpc.comdex.one"
+    ],
     "ownerAddress": "comdexvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw0u289r",
     "healthCheck": {
       "uuid": "b30ed331-a5ff-40d1-907b-b909b9310c5c"
@@ -153,10 +165,10 @@
   "bitsong": {
     "prettyName": "BitSong",
     "restUrl": [
-      "https://lcd-bitsong.ezstaking.dev"
+      "https://lcd.explorebitsong.com"
     ],
     "rpcUrl": [
-      "https://rpc-bitsong.ezstaking.dev"
+      "https://rpc.explorebitsong.com"
     ],
     "ownerAddress": "bitsongvaloper18xfqngs09n7a86lesrh4q5atjx37a3qc56hqhw",
     "healthCheck": {
@@ -230,10 +242,10 @@
       "high": 0
     },
     "restUrl": [
-      "https://lcd-assetmantle.ezstaking.dev"
+      "https://rest.assetmantle.one"
     ],
     "rpcUrl": [
-      "https://rpc-assetmantle.ezstaking.dev"
+      "https://rpc.assetmantle.one"
     ],
     "ownerAddress": "mantlevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw9ldxx2",
     "healthCheck": {
@@ -311,5 +323,14 @@
       "https://rpc-kyve.ezstaking.dev:443"
     ],
     "ownerAddress": "kyvevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw76lp8n"
+  },
+  "irisnet": {
+    "prettyName": "Iris Network",
+    "restUrl": [
+      "https://api.irishub-1.irisnet.org"
+    ],
+    "rpcUrl": [
+      "https://rpc.irishub-1.irisnet.org"
+    ]
   }
 }
