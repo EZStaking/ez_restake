@@ -29,8 +29,8 @@
   {
     "name": "chihuahua",
     "ownerAddress": "chihuahuavaloper19vwcee000fhazmpt4ultvnnkhfh23ppwxll8zz",
-    "gasPrice": "1uhuahua",
-    "gasPricePrefer": "1uhuahua"
+    "gasPrice": "500uhuahua",
+    "gasPricePrefer": "500uhuahua"
   },
   {
     "name": "gravitybridge",
@@ -236,7 +236,7 @@
   },
   {
     "name": "likecoin",
-    "gasPrice": "10nanolike"
+    "gasPrice": "10000nanolike"
   },
   {
     "name": "passage",
@@ -317,5 +317,9 @@
     "name": "coreum",
     "ownerAddress": "corevaloper1py9v5f7e4aaka55lwtthk30scxhnqfa6agwxt8",
     "gasPrice": "0.0625ucore"
+  },
+  {
+    "name": "source",
+    "gasPrice": "0.05usource"
   }
 ]
