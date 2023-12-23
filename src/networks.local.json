@@ -155,10 +155,10 @@
     "prettyName": "KiChain",
     "gasPrice": "0.025uxki",
     "restUrl": [
-      "https://lcd-kichain.ezstaking.dev"
+      "https://api-mainnet.blockchain.ki"
     ],
     "rpcUrl": [
-      "https://rpc-kichain.ezstaking.dev"
+      "https://rpc-mainnet.blockchain.ki"
     ],
     "ownerAddress": "kivaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw7wd99l",
     "healthCheck": {
