@@ -177,10 +177,10 @@
       "high": 0
     },
     "restUrl": [
-      "https://rest.assetmantle.one"
+      "https://lcd-assetmantle.ezstaking.dev"
     ],
     "rpcUrl": [
-      "https://rpc.assetmantle.one"
+      "https://rpc-assetmantle.ezstaking.dev"
     ],
     "ownerAddress": "mantlevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw9ldxx2",
     "healthCheck": {
