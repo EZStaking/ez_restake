@@ -2,8 +2,8 @@ import _ from 'lodash'
 
 const Operator = (network, data) => {
   const { address } = data
-  const botAddress = network.data.restake?.address || data.restake.address
-  const minimumReward = network.data.restake?.minimumReward || data.restake.minimum_reward
+  const botAddress = network.data.operator?.address || data.restake.address
+  const minimumReward = network.data.operator?.minimumReward || data.restake.minimum_reward
 
   return {
     address,
