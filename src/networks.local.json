@@ -1,264 +1,205 @@
 {
-  "juno": {
-    "prettyName": "Juno Network",
-    "gasPrice": "0.075ujuno",
-    "restUrl": [
-      "https://lcd-juno.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-juno.ezstaking.dev"
-    ],
-    "ownerAddress": "junovaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawjt8r7s",
-    "healthCheck": {
-      "uuid": "bd479dfa-2e1e-4236-a313-a08bda088df2"
-    },
-    "restake": {
-      "minimumReward": 1000000
-    }
-  },
-  "cosmoshub": {
-    "prettyName": "Cosmos Hub",
-    "gasPrice": "0.005uatom",
-    "restUrl": [
-      "https://lcd-cosmos.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-cosmos.ezstaking.dev"
-    ],
-    "ownerAddress": "cosmosvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw7sxzwx",
-    "healthCheck": {
-      "uuid": "23eb3159-4082-483a-99fe-92a7ac137cc9"
-    },
-    "restake": {
-      "minimumReward": 1000000
-    }
-  },
   "akash": {
-    "prettyName": "Akash",
-    "ownerAddress": "akashvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawua3kt9",
     "healthCheck": {
       "uuid": "4d9f51d2-3b17-452a-9119-a43e5aeb995d"
     },
-    "restake": {
-      "minimumReward": 1000000
-    }
+    "ownerAddress": "akashvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawua3kt9",
+    "prettyName": "Akash"
   },
-  "gravitybridge": {
-    "prettyName": "Gravity-Bridge",
-    "gasPrice": "0ugraviton",
-    "restUrl": [
-      "https://lcd-gravity-bridge.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-gravity-bridge.ezstaking.dev"
-    ],
-    "ownerAddress": "gravityvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawwle3df",
-    "healthCheck": {
-      "uuid": "15101fe2-d646-45c5-9a9f-b06a5f5f7b61"
-    },
-    "restake": {
-      "minimumReward": 1000000
-    }
-  },
-  "stargaze": {
-    "prettyName": "Stargaze",
-    "gasPrice": "1ustars",
+  "assetmantle": {
+    "gasPrice": "0umntl",
     "gasPriceStep": {
-      "low": 0.000001,
-      "average": 0.000011,
-      "high": 0.000012
+      "average": 0,
+      "high": 0,
+      "low": 0
     },
-    "restUrl": [
-      "https://api-stargaze.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-stargaze.ezstaking.dev"
-    ],
-    "ownerAddress": "starsvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawyx37ju",
     "healthCheck": {
-      "uuid": "a7c8133b-0914-48e7-b9cb-01a2c88b4811"
+      "uuid": "50303d6c-a5ef-4991-889f-e8bae68057c4"
     },
-    "restake": {
-      "minimumReward": 1000000
-    }
-  },
-  "comdex": {
-    "prettyName": "Comdex",
-    "restUrl": [
-      "https://rest.comdex.one"
-    ],
-    "rpcUrl": [
-      "https://rpc.comdex.one"
-    ],
-    "ownerAddress": "comdexvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw0u289r",
-    "healthCheck": {
-      "uuid": "b30ed331-a5ff-40d1-907b-b909b9310c5c"
-    },
-    "restake": {
-      "minimumReward": 1000000
-    }
+    "ownerAddress": "mantlevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw9ldxx2",
+    "prettyName": "AssetMantle"
   },
   "cheqd": {
-    "prettyName": "Cheqd",
+    "autostake": {
+      "batchTxs": 10,
+      "gasModifier": 1.2
+    },
     "gasPrice": "25ncheq",
+    "healthCheck": {
+      "uuid": "88823366-feeb-4f83-9852-237ce7760e70"
+    },
+    "operator": {
+      "minimumReward": 10000000
+    },
+    "ownerAddress": "cheqdvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw2vq30x",
+    "prettyName": "Cheqd",
     "restUrl": [
       "https://lcd-cheqd.ezstaking.dev"
     ],
     "rpcUrl": [
       "https://rpc-cheqd.ezstaking.dev"
-    ],
-    "ownerAddress": "cheqdvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw2vq30x",
-    "autostake": {
-      "batchTxs": 10
-    },
-    "healthCheck": {
-      "uuid": "88823366-feeb-4f83-9852-237ce7760e70"
-    },
-    "restake": {
-      "minimumReward": 1000000
-    }
+    ]
   },
-  "bitsong": {
-    "prettyName": "BitSong",
+  "cosmoshub": {
+    "gasPrice": "0.005uatom",
+    "healthCheck": {
+      "uuid": "23eb3159-4082-483a-99fe-92a7ac137cc9"
+    },
+    "ownerAddress": "cosmosvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw7sxzwx",
+    "prettyName": "Cosmos Hub",
     "restUrl": [
-      "https://lcd.explorebitsong.com"
+      "https://lcd-cosmos.ezstaking.dev"
     ],
     "rpcUrl": [
-      "https://rpc.explorebitsong.com"
-    ],
-    "ownerAddress": "bitsongvaloper18xfqngs09n7a86lesrh4q5atjx37a3qc56hqhw",
-    "healthCheck": {
-      "uuid": "15ee4f27-a163-4c15-85b4-36c96fc96627"
-    },
-    "restake": {
-      "minimumReward": 1000000
-    }
-  },
-  "impacthub": {
-    "prettyName": "Impact Hub",
-    "gasPrice": "0.025uixo",
-    "restUrl": [
-      "https://lcd-ixo.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-ixo.ezstaking.dev"
-    ],
-    "ownerAddress": "ixovaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawwsu57r",
-    "healthCheck": {
-      "uuid": "1a6568b9-8317-4417-9c51-de8e289185b7"
-    },
-    "restake": {
-      "minimumReward": 1000000
-    }
-  },
-  "kichain": {
-    "prettyName": "KiChain",
-    "gasPrice": "0.025uxki",
-    "restUrl": [
-      "https://api-mainnet.blockchain.ki"
-    ],
-    "rpcUrl": [
-      "https://rpc-mainnet.blockchain.ki"
-    ],
-    "ownerAddress": "kivaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw7wd99l",
-    "healthCheck": {
-      "uuid": "852f8640-0f87-4fce-ab90-e20fab5461c0"
-    },
-    "restake": {
-      "minimumReward": 1000000
-    }
-  },
-  "assetmantle": {
-    "prettyName": "AssetMantle",
-    "gasPrice": "0umntl",
-    "gasPriceStep": {
-      "low": 0,
-      "average": 0,
-      "high": 0
-    },
-    "restUrl": [
-      "https://lcd-assetmantle.ezstaking.dev"
-    ],
-    "rpcUrl": [
-      "https://rpc-assetmantle.ezstaking.dev"
-    ],
-    "ownerAddress": "mantlevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw9ldxx2",
-    "healthCheck": {
-      "uuid": "50303d6c-a5ef-4991-889f-e8bae68057c4"
-    },
-    "restake": {
-      "minimumReward": 1000000
-    }
-  },
-  "evmos": {
-    "prettyName": "Evmos",
-    "gasPrice": "20000000000aevmos",
-    "restUrl": [
-      "https://rest.bd.evmos.org:1317"
-    ],
-    "rpcUrl": [
-      "https://tendermint.bd.evmos.org:26657"
-    ],
-    "ownerAddress": "evmosvaloper1n4kuugnh2z5dsug7egamma7chnjcdfu4jwhq76",
-    "healthCheck": {
-      "uuid": "fd4a0d47-072e-4b7a-bb92-5a5f24c2a7b1"
-    },
-    "restake": {
-      "minimumReward": 1000000000000000000
-    }
+      "https://rpc-cosmos.ezstaking.dev"
+    ]
   },
   "firmachain": {
+    "gasPrice": "0.01ufct",
+    "healthCheck": {
+      "uuid": "274a331c-dfba-47fe-911e-cc09f5d3eac1"
+    },
+    "ownerAddress": "firmavaloper13ee8f0s90a3x0c7yfduxkv4hvrdwsuv74llup9",
     "prettyName": "Firmachain",
-    "gasPrice": "0ufct",
     "restUrl": [
       "https://lcd.firmachain.dev:1317"
     ],
     "rpcUrl": [
       "https://lcd.firmachain.dev:26657"
-    ],
-    "ownerAddress": "firmavaloper13ee8f0s90a3x0c7yfduxkv4hvrdwsuv74llup9",
-    "restake": {
-      "minimumReward": 1000000
-    }
+    ]
   },
-  "omniflixhub": {
-    "prettyName": "OmniFlix Hub",
-    "gasPrice": "0.001uflix",
+  "gravitybridge": {
+    "gasPrice": "0ugraviton",
+    "healthCheck": {
+      "uuid": "15101fe2-d646-45c5-9a9f-b06a5f5f7b61"
+    },
+    "ownerAddress": "gravityvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawwle3df",
+    "prettyName": "Gravity-Bridge",
     "restUrl": [
-      "https://rest.omniflix.network"
+      "https://lcd-gravity-bridge.ezstaking.dev"
     ],
     "rpcUrl": [
-      "https://rpc-omniflix.ezstaking.dev"
-    ],
-    "ownerAddress": "omniflixvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawtg305r",
-    "restake": {
-      "minimumReward": 1000000
-    }
+      "https://rpc-gravity-bridge.ezstaking.dev"
+    ]
   },
-  "kyve": {
-    "prettyName": "KYVE",
-    "gasPrice": "0.02ukyve",
+  "impacthub": {
+    "gasPrice": "0.025uixo",
+    "healthCheck": {
+      "uuid": "1a6568b9-8317-4417-9c51-de8e289185b7"
+    },
+    "ownerAddress": "ixovaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawwsu57r",
+    "prettyName": "Impact Hub",
     "restUrl": [
-      "https://lcd-kyve.ezstaking.dev:443"
+      "https://lcd-ixo.ezstaking.dev"
     ],
     "rpcUrl": [
-      "https://rpc-kyve.ezstaking.dev:443"
-    ],
-    "ownerAddress": "kyvevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw76lp8n",
-    "restake": {
-      "minimumReward": 1000000
-    }
+      "https://rpc-ixo.ezstaking.dev"
+    ]
   },
   "irisnet": {
+    "healthCheck": {
+      "uuid": "a38116ce-b85e-4827-a08a-0ec1865a1e88"
+    },
     "prettyName": "Iris Network",
     "restUrl": [
       "https://api.irishub-1.irisnet.org"
     ],
     "rpcUrl": [
       "https://rpc.irishub-1.irisnet.org"
+    ]
+  },
+  "juno": {
+    "gasPrice": "0.075ujuno",
+    "healthCheck": {
+      "uuid": "bd479dfa-2e1e-4236-a313-a08bda088df2"
+    },
+    "ownerAddress": "junovaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawjt8r7s",
+    "prettyName": "Juno Network",
+    "restUrl": [
+      "https://lcd-juno.ezstaking.dev"
     ],
-    "restake": {
-      "minimumReward": 1000000
-    }
+    "rpcUrl": [
+      "https://rpc-juno.ezstaking.dev"
+    ]
+  },
+  "kichain": {
+    "gasPrice": "0.025uxki",
+    "healthCheck": {
+      "uuid": "852f8640-0f87-4fce-ab90-e20fab5461c0"
+    },
+    "ownerAddress": "kivaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw7wd99l",
+    "prettyName": "KiChain",
+    "restUrl": [
+      "https://api-mainnet.blockchain.ki"
+    ],
+    "rpcUrl": [
+      "https://rpc-mainnet.blockchain.ki"
+    ]
+  },
+  "kyve": {
+    "gasPrice": "0.02ukyve",
+    "healthCheck": {
+      "uuid": "1fa1d248-bb3e-435a-912f-f73868f8fa88"
+    },
+    "ownerAddress": "kyvevaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9waw76lp8n",
+    "prettyName": "KYVE",
+    "restUrl": [
+      "https://lcd-kyve.ezstaking.dev:443"
+    ],
+    "rpcUrl": [
+      "https://rpc-kyve.ezstaking.dev:443"
+    ]
+  },
+  "omniflixhub": {
+    "gasPrice": "0.001uflix",
+    "healthCheck": {
+      "uuid": "b3f1dba9-ab32-4442-928d-be23f826426a"
+    },
+    "operator": {
+      "minimumReward": 10000000
+    },
+    "ownerAddress": "omniflixvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawtg305r",
+    "prettyName": "OmniFlix Hub",
+    "restUrl": [
+      "https://rest.omniflix.network"
+    ],
+    "rpcUrl": [
+      "https://rpc-omniflix.ezstaking.dev"
+    ]
+  },
+  "passage": {
+    "gasPrice": "0upasg",
+    "healthCheck": {
+      "uuid": "b022eaf0-427e-460d-9b59-a2542d23dc4f"
+    },
+    "prettyName": "Passage",
+    "restUrl": [
+      "https://api.passage.vitwit.com"
+    ],
+    "rpcUrl": [
+      "https://rpc.passage.vitwit.com"
+    ]
+  },
+  "stargaze": {
+    "gasPrice": "1ustars",
+    "gasPriceStep": {
+      "average": 0.000011,
+      "high": 0.000012,
+      "low": 0.000001
+    },
+    "healthCheck": {
+      "uuid": "a7c8133b-0914-48e7-b9cb-01a2c88b4811"
+    },
+    "operator": {
+      "minimumReward": 10000000
+    },
+    "ownerAddress": "starsvaloper1gjtvly9lel6zskvwtvlg5vhwpu9c9wawyx37ju",
+    "prettyName": "Stargaze",
+    "restUrl": [
+      "https://api-stargaze.ezstaking.dev"
+    ],
+    "rpcUrl": [
+      "https://rpc-stargaze.ezstaking.dev"
+    ]
   }
 }
